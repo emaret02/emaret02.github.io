@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emily's To Do List Creater</title>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Emily's To Do List Creater</h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      <p>Record your To-Dos here:</p>
+      <form>
+        <input type="text" maxlength="100" placeholder="Buy TP">
+        <button type="addToList">Add To List</button>
+      </form>
+      <section class="toDoItem">
+        <ul id="toDoItem">
+        </ul>
+      </section>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
